@@ -1,4 +1,4 @@
-# Professional Network Sniffer
+# Network Sniffer
 
 A robust, cross-platform Network Sniffer built with Python and Scapy. This application is designed to capture, analyze, and log network traffic efficiently without suffering from memory leaks.
 
@@ -93,7 +93,3 @@ python src/main.py --cli -i "Ethernet" -f "icmp" -p "ping_test.pcap"
 ```
 
 To terminate the CLI capture, press `Ctrl+C` at any time. The application will intercept the keyboard interrupt, gracefully stop the background sniffing thread, save and close your PCAP file (if specified), and print a detailed summary report of the captured traffic.
-
-## License
-
-This project is intended for educational and professional network analysis purposes.
